@@ -1,1 +1,1 @@
-web:./dist/build/feio/feio production -p $PORT
+web: ./dist/build/feio/feio production -p $PORT
