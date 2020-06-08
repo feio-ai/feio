@@ -1,0 +1,1 @@
+web:./dist/build/feio/feio production -p $PORT
