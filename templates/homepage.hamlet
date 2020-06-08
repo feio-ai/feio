@@ -1,0 +1,140 @@
+<div .container-fluid>
+    <div .jumbotron>
+            <h1 .text-center>
+                FEIO.AI
+            <p .text-center>
+                Hardware Acceleration and Custom Coprocessor Simulation/Validation
+
+<div .container>
+    <div .summary>
+        <p>
+            FEIO offers Hardware Acceleration solutions on cloud-hosted, specialized devices. The future of high performant system architecture is
+            heterogeneous i.e. composed of central and co-processors alike. We achieve high degrees of acceleration by migrating the compute intensive 
+            sections of programs to accelerated coprocessors. See the Monte Carlo example below (MCAccel)
+
+<div .container-fluid>
+        <h1 .page-header>
+            Products
+
+<div .container-fluid>
+    <div .col-md-6 .col-md-6>
+        <div .panel .panel-default>
+            <div .panel-heading>
+                <h1>
+                    MCAccel
+            <div .panel-body>
+                Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a quarter of the time.
+            <div .panel-body>
+                <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
+                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation
+    <div .col-md-6 .col-md-6>
+        <div .panel .panel-default>
+            <div .panel-heading>
+                <h1>
+                    TF-MM
+            <div .panel-body>
+                Trial version of FPGA based Matrix Multiplier API for Tensorflow. Using LeFlow and AWS F1 Instances, modify tesnorflow to target
+                FPGA instead of GPU improving energy efficiency.
+            <div .panel-body>
+                <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
+                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation
+
+<div .container-fluid>
+        <h1 .page-header>
+            Research
+
+<div .container-fluid>
+        <h1 .page-header>
+            Technology
+
+<div .container-fluid>
+    <div .sectional>
+        <p>
+            The emerging field of hardware microservices is saddled by a variety of tools, development flows, and frameworks. Here are some that we use
+            and believe are promising.
+<!-- <div .container-fluid> -->
+<!--        <h2> Tools We Use: -->
+
+<div .container-fluid>
+    <div .row>
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> AWS F1 Instances
+                <div .panel-body>    
+                    <p> Once setup, allows for easy development and deployment of FPGA based Hardware Microservices
+                    <p> Advantages
+                    <ul> 
+                        <li> Xilinx Vitis development flow
+                        <li> Free (pay for EC2 instance)
+                    <ul> Drawbacks
+                        <li> Difficult to setup development flow
+                        <li> Help is hard to find because service is new
+
+
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> RocketChip
+                <div .panel-body>
+                    <p> Opensource generator for development and largescale simulation of RISC-V SoC
+                    <p> Rocketchip generator:
+                    <ul>
+                        <li> Developed at UCSB, the generator allows for production of custom SoC
+                        <li> We used to develop MC coprocessor consisting of random number generator and high throughput IO 
+                        <li> Chisel, an EDSL of Scala, is the main programming tool
+                    
+                    <p> Firesim
+                    <ul>
+                        <li> Powerful, cycle-accurate, simulation tool for thousands of multicore nodes
+                        
+
+
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> LeFlow
+                <div .panel-body>
+                    <p> Tool by LegUp Computing that allows for easy tensorflow to FPGA communication
+
+
+
+<div .container-fluid>
+        <h1 .page-header>
+            Motivation
+
+<div .container-fluid>
+    <div .sectional>
+        <p>
+            Heterogeneous computing frameworks will be the new norm for compute-intensive systems consisting of a central processor 
+            connected to domain specific coprocessors. For proof look no further than projects like Google's TPU, Microsoft's Catapult, 
+            or newer companies like Groq or Intensivate. These systems can be formed with GPUs, FPGAs, ASICs and/or combinations of the three. 
+        <p>    
+            FPGAs are fast, flexible, and very efficient. GPUs are also fast and flexible (sometimes in greater amounts) but these gains come at 
+            the expense of terrible efficiency. Considering current environmental crises, we as engineers should weigh energy efficiency as heavily 
+            as other application characteristics. Lesser energy demands is also important for cloud service providers hoping to reduce their bottom line. 
+            FPGAs are preferable to GPUs because they provide equal speed and reprogrammability capability but with extreme efficiency. 
+        <p>    
+            Widespread adoption of FPGA technology has been stymied by two factors: device/toolchain costs and programming difficulty. The lack of cloud-based FPGAs 
+            necessitated the purchase of a device along with the software licensing fee, both large upfront costs. Luckily within the last two years, 
+            FPGAs have been made available on platforms like AWS, Microsoft, Nimbix, and others. Users no longer need local access to the device. 
+        <p>    
+            The second hindrance is the programming of the FPGA itself. Requiring fundamental knowledge of digital systems and the electrical components of a 
+            FPGA, Hardware Description Languages like Verilog and VHDL are largely inaccessible to software engineers. Again in recent years the development 
+            of High level synthesis, OO-to-HDL compilers, eDSLs, and acceleration frameworks have provided easier development flows for more software oriented 
+            engineers. 
+        <p>    
+            While some will  vehemently argue against the use of such tools, we propose using these to produce an initial outline of an application 
+            followed by fine tuning of generated RTL for better performance ( sometimes unnecessary).
+
+
+<div .container-fluid>
+        <h1 .page-header>
+            About Us
+
+<div .container-fluid>
+    <div .sectional>
+        <p>
+            FEIO is the branding for independent research conducted by Allen Vannoppen Jr. I received a Masters in ECE and have extended those research efforts here. 
+            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, Github, 
+            LinkedIn, etc. with any questions, comments, or projects.
