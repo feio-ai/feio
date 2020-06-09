@@ -1,1 +1,0 @@
-web: ./dist-newstyle/build/x86_64-osx/ghc-8.6.5/feio-0.0.0/x/feio/build/feio/feio production -p $PORT
