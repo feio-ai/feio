@@ -32,7 +32,7 @@ getHomeR = do
     defaultLayout $ do
         let (commentFormId, commentTextareaId, commentListId) = commentIds
         aDomId <- newIdent
-        setTitle "Feio"
+        setTitle "FEIO.AI"
         $(widgetFile "homepage")
 
 postHomeR :: Handler Html
