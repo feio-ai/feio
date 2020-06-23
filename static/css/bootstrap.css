@@ -7028,10 +7028,12 @@ a.list-group-item-danger.active:focus {
 
 .page-header {
   font-family: 'Overpass Mono', monospace;
+  font-weight: 600;
   font-size: 55px;
   margin-bottom: 10px;
   margin-top: 27px;
   color: rgb(43, 24, 24);
+  text-shadow: 1px 1px #ff0000bd;
 }
 
 .site-header {
@@ -7208,8 +7210,14 @@ ol ol {
   color: rgb(43, 24, 24);
 }
 
-.site-header, .bold {
+.bolded {
   text-shadow: 1px 1px #ff0000bd;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  color: rgb(43, 24, 24);
 }
 
 .site-header-1 {

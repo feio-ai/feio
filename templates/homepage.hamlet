@@ -7,9 +7,7 @@
     <div .row>
         <div .col-md-6 .col-md-offset-3>
             <h1 .site-header>
-              <h1 .bold>
-                Fast
-              : Exploit Parallelism
+                <span .bolded>Fast</span>: Exploit Parallelism
     <div .row>
         <div .col-md-6 .col-md-offset-3>
             <h1 .site-header>
