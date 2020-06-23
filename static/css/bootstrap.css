@@ -5469,7 +5469,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-heading {
   padding: 10px 15px;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
@@ -7078,7 +7078,7 @@ body {
 }
 
 .panel-default {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.219); 
+  box-shadow: 1px 1px 1px 1px rgba(162, 0, 255, 0.219); 
 }
 
 .panel-default > .panel-heading {
@@ -7127,6 +7127,7 @@ body {
 
 .panel-default {
   border-color: rgba(0, 0, 2, 0.274);
+  
 }
 
 .panel-default > .panel-heading {
@@ -7136,12 +7137,13 @@ body {
   font-weight: 400;
   font-size: 25px;
   border-color: rgba(0, 0, 2, 0.274);
+  text-shadow: 1px 1px #442828;
 }
 
 .panel-default > .panel-body {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 20px;
   color: rgb(59, 34, 34);
   background-color: rgba(0, 0, 2, 0.13);
 }
