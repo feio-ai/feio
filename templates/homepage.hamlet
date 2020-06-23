@@ -30,10 +30,6 @@
                 <h1>
                     MCAccel
             <div .panel-body>
-               <div .gif-monte>
-                <iframe src='https://gfycat.com/ifr/AffectionateMemorableGreyhounddog' ></iframe>
-                  <p> 
-                    <a href="https://gfycat.com/affectionatememorablegreyhounddog-artificial-intelligence-neural-networks">via Gfycat</a>
                 Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
             <div .panel-body>
                 <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
@@ -42,7 +38,7 @@
         <div .panel .panel-default>
             <div .panel-heading>
                 <h1>
-                    TF-MM
+                    F1-CNN
             <div .panel-body>
                 Resnet-50 convolutional neural net trained, mapped and deployed on an AWS F1 instance. Can identify images from ImageNet database in average 250 ms or half the time of an i7 CPU.
             <div .panel-body>
