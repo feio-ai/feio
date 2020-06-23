@@ -11,20 +11,13 @@
     <div .row>
         <div .col-md-6 .col-md-offset-3>
             <h1 .site-header>
-                Efficient: Utilizes FPGAs
+                Efficient: Dedicated Hardware
     <div .row>
         <div .col-md-6 .col-md-offset-3>
             <h1 .site-header>
                 Connectable: Available on AWS          
 
-<div .container>
-    <div .summary>
-        <p>
-            Cloud-based, heterogeneous architecture for compute intensive applications. Exploit parallelism in applications by utilizing FPGA.
-            
-            FEIO offers Hardware Acceleration solutions on cloud-hosted, specialized devices. The future of high performant system architecture is
-            heterogeneous i.e. composed of central and co-processors alike. We achieve high degrees of acceleration by migrating the compute intensive 
-            sections of programs to accelerated coprocessors. See the Monte Carlo example below (MCAccel)
+
 
 <div .container-fluid>
         <h1 .page-header>

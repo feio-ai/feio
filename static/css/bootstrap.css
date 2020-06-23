@@ -7211,7 +7211,7 @@ ol ol {
 .site-header-1 {
   font-family: 'Overpass Mono', monospace;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   text-shadow: 2px 2px #ff0000;
   margin-bottom: 8px;
   margin-top: 27px;
@@ -7219,5 +7219,8 @@ ol ol {
 }
 
 .new-header {
-  background-color: rgba(0, 0, 0, 0.815);
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.219);
+  border-radius: 1px;
+  border-color: rgba(255, 255, 255, 0.2);
 }
