@@ -4977,8 +4977,8 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 23px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 400;
 }
 .jumbotron > hr {
   border-top-color: #cfd9db;
@@ -7114,7 +7114,7 @@ body {
 .summary {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(59, 34, 34);
 }
 
@@ -7182,4 +7182,28 @@ h2 {
 .sectional > p {
   margin-bottom: 25px;
   font-size: 20px;
+}
+
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol {
+  margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.site-header {
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 700;
+  font-size: 45px;
+  text-shadow: 2px 2px #ff0000;
+  margin-bottom: 8px;
+  margin-top: 27px;
+  color: rgb(43, 24, 24);
 }

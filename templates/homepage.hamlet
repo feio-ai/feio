@@ -3,11 +3,25 @@
             <h1 .text-center>
                 FEIO.AI
             <p .text-center>
-                Hardware Accelerated, Connectable Software Components
+                Fast, Efficient, Connectable
 
+<div .container>
+    <h1 .site-header>
+        Exploit Parallelism
+
+<div .container>
+    <h1 .site-header>
+        Energy Efficient
+
+<div .container>
+    <h1 .site-header>
+        Easily Connect To Any Application
+
+        
 <div .container>
     <div .summary>
         <p>
+            Cloud-based, heterogeneous architecture for compute intensive applications. Exploit parallelism in applications by utilizing FPGA.
             
             FEIO offers Hardware Acceleration solutions on cloud-hosted, specialized devices. The future of high performant system architecture is
             heterogeneous i.e. composed of central and co-processors alike. We achieve high degrees of acceleration by migrating the compute intensive 
@@ -24,24 +38,22 @@
                 <h1>
                     MCAccel
             <div .panel-body>
-                Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a quarter of the time.
+                Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
             <div .panel-body>
                 <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
-                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation
+                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
     <div .col-md-6 .col-md-6>
         <div .panel .panel-default>
             <div .panel-heading>
                 <h1>
                     TF-MM
             <div .panel-body>
-                Resnet-50 mapped and deployed on an AWS F1 instance. 
+                Resnet-50 convolutional neural net trained, mapped and deployed on an AWS F1 instance. Can identify images from ImageNet database in average 250 ms or half the time of an i7 CPU.
             <div .panel-body>
-                <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
-                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation
+                <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
+                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
 
-<div .container-fluid>
-        <h1 .page-header>
-            Research
+
 
 <div .container-fluid>
         <h1 .page-header>
@@ -93,7 +105,7 @@
         <div .col-md-4>
             <div .panel .panel-default>
                 <div .panel-heading>
-                    <h1> LeFlow
+                    <h1> Spatial
                 <div .panel-body>
                     <p> Tool by LegUp Computing that allows for easy tensorflow to FPGA communication
 
@@ -136,7 +148,9 @@
     <div .sectional>
         <p>
             FEIO is the branding for independent research conducted by Allen Vannoppen Jr. I received a Masters in ECE and have extended those research efforts here. 
-            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, (feioaccel at gmail dot com), 
+            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email (feioaccel at gmail), 
             <a href="https://github.com/feio-ai" > Github 
-            <a href=https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/ >LinkedIn 
-            , etc. with any questions, comments, or projects.
+            ,
+            <a href=https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/ >LinkedIn
+            , 
+            etc. with any questions, comments, or projects.
