@@ -136,5 +136,7 @@
     <div .sectional>
         <p>
             FEIO is the branding for independent research conducted by Allen Vannoppen Jr. I received a Masters in ECE and have extended those research efforts here. 
-            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, Github, 
-            LinkedIn, etc. with any questions, comments, or projects.
+            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, (feioaccel at gmail dot com), 
+            <a .btn .btn-primary .btn-lg .btn-block href="https://github.com/feio-ai" > Github 
+            <a .btn .btn-primary .btn-lg .btn-block href=https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/ >LinkedIn 
+            , etc. with any questions, comments, or projects.
