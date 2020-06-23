@@ -7208,6 +7208,10 @@ ol ol {
   color: rgb(43, 24, 24);
 }
 
+.site-header, .bold {
+  text-shadow: 1px 1px #ff0000bd;
+}
+
 .site-header-1 {
   font-family: 'Overpass Mono', monospace;
   font-weight: 700;
@@ -7220,4 +7224,5 @@ ol ol {
 
 .new-header {
   background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 25px;
 }
