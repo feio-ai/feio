@@ -7202,25 +7202,22 @@ ol ol {
   font-family: 'Overpass Mono', monospace;
   font-weight: 600;
   font-size: 40px;
-  text-shadow: 1px 1px #ff0000;
+  text-shadow: 1px 1px #442828;
   margin-bottom: 8px;
   margin-top: 20px;
-  color: rgb(85, 73, 73);
+  color: rgb(43, 24, 24);
 }
 
 .site-header-1 {
   font-family: 'Overpass Mono', monospace;
   font-weight: 700;
-  font-size: 60px;
-  text-shadow: 2px 2px #ff0000;
-  margin-bottom: 8px;
+  font-size: 80px;
+  text-shadow: 1px 1px #ff0000bd;
+  margin-bottom: 15px;
   margin-top: 27px;
-  color: rgb(85, 73, 73);
+  color: rgb(43, 24, 24);
 }
 
 .new-header {
   background-color: rgba(0, 0, 0, 0);
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.219);
-  border-radius: 1px;
-  border-color: rgba(255, 255, 255, 0.2);
 }
