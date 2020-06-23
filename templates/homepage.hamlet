@@ -1,11 +1,5 @@
-div .container-fluid>
-    <div .jumbotron>
-            <h1 .text-center>
-                FEIO.AI
-            <p .text-center>
-                Fast, Efficient, Connectable
-
 <div .container-fluid>
+  <div .new-header>
     <div .row>
         <div .col-md-4>
             <h1 .site-header-1>
@@ -17,12 +11,11 @@ div .container-fluid>
     <div .row>
         <div .col-md-6 .col-md-offset-3>
             <h1 .site-header>
-                Efficient: Only Necessary Hardware Active
+                Efficient: Utilizes FPGAs
     <div .row>
         <div .col-md-6 .col-md-offset-3>
             <h1 .site-header>
                 Connectable: Available on AWS          
-
 
 <div .container>
     <div .summary>
