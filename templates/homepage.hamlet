@@ -3,11 +3,12 @@
             <h1 .text-center>
                 FEIO.AI
             <p .text-center>
-                Hardware Acceleration and Custom Coprocessor Simulation/Validation
+                Hardware Accelerated, Connectable Software Components
 
 <div .container>
     <div .summary>
         <p>
+            
             FEIO offers Hardware Acceleration solutions on cloud-hosted, specialized devices. The future of high performant system architecture is
             heterogeneous i.e. composed of central and co-processors alike. We achieve high degrees of acceleration by migrating the compute intensive 
             sections of programs to accelerated coprocessors. See the Monte Carlo example below (MCAccel)
@@ -33,8 +34,7 @@
                 <h1>
                     TF-MM
             <div .panel-body>
-                Trial version of FPGA based Matrix Multiplier API for Tensorflow. Using LeFlow and AWS F1 Instances, modify tesnorflow to target
-                FPGA instead of GPU improving energy efficiency.
+                Resnet-50 mapped and deployed on an AWS F1 instance. 
             <div .panel-body>
                 <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
                 <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation
@@ -137,6 +137,6 @@
         <p>
             FEIO is the branding for independent research conducted by Allen Vannoppen Jr. I received a Masters in ECE and have extended those research efforts here. 
             My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, (feioaccel at gmail dot com), 
-            <a .btn .btn-primary .btn-lg .btn-block href="https://github.com/feio-ai" > Github 
-            <a .btn .btn-primary .btn-lg .btn-block href=https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/ >LinkedIn 
+            <a href="https://github.com/feio-ai" > Github 
+            <a href=https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/ >LinkedIn 
             , etc. with any questions, comments, or projects.
