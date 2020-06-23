@@ -1,26 +1,27 @@
-<div .container-fluid>
+div .container-fluid>
     <div .jumbotron>
             <h1 .text-center>
                 FEIO.AI
             <p .text-center>
                 Fast, Efficient, Connectable
 
-<div .container> 
-    <div .site-header>
-        <div .body>
-            Test
-
-<div .container>
-    <h1 .site-header>
-        Exploit Parallelism
-
-<div .container>
-    <h1 .site-header>
-        Energy Efficient
-
-<div .container>
-    <h1 .site-header>
-        Easily Connect To Any Application
+<div .container-fluid>
+    <div .row>
+        <div .col-md-4>
+            <h1 .site-header-1>
+                FEIO.AI
+    <div .row>
+        <div .col-md-6 .col-md-offset-3>
+            <h1 .site-header>
+                Fast: Exploit Parallelism
+    <div .row>
+        <div .col-md-6 .col-md-offset-3>
+            <h1 .site-header>
+                Efficient: Only Necessary Hardware Active
+    <div .row>
+        <div .col-md-6 .col-md-offset-3>
+            <h1 .site-header>
+                Connectable: Available on AWS          
 
 
 <div .container>
