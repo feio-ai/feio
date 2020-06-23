@@ -30,6 +30,10 @@
                 <h1>
                     MCAccel
             <div .panel-body>
+               <div .gif-monte>
+                <iframe src='https://gfycat.com/ifr/AffectionateMemorableGreyhounddog' ></iframe>
+                  <p> 
+                    <a href="https://gfycat.com/affectionatememorablegreyhounddog-artificial-intelligence-neural-networks">via Gfycat</a>
                 Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
             <div .panel-body>
                 <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS

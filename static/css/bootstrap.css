@@ -7236,3 +7236,9 @@ ol ol {
   background-color: rgba(0, 0, 0, 0);
   margin-bottom: 25px;
 }
+
+.gif-monte {
+  position:relative; 
+  padding-bottom: calc(56.25% + 44px);
+
+}
