@@ -1,21 +1,31 @@
 <div .container-fluid>
   <div .new-header>
     <div .row>
-        <div .col-md-4>
+        <div .col-md-12>
             <h1 .site-header-1>
                 FEIO.AI
     <div .row>
-        <div .col-md-6 .col-md-offset-3>
+        <div .col-md-12>
+            <h1 .site-subhead>
+                Cloud-based, Hardware Acceleration
+    
+    <div .row>
+        <div .col-md-8 .col-md-offset-3>
             <h1 .site-header>
                 <span .bolded>Fast:</span> Exploit Parallelism
-    <div .row>
-        <div .col-md-6 .col-md-offset-3>
+    <div .row> 
+        <div .col-md-8 .col-md-offset-3>
             <h1 .site-header>
                 <span .bolded> Efficient:</span> Dedicated Hardware
     <div .row>
-        <div .col-md-6 .col-md-offset-3>
+        <div .col-md-8 .col-md-offset-3>
             <h1 .site-header>
                 <span .bolded>Connectable:</span> Available on AWS          
+
+<div .container-fluid>
+  <div .shape-init>
+  <div .shape>
+
 
 
 
@@ -24,82 +34,26 @@
             Products
 
 <div .container-fluid>
-    <div .col-md-6 .col-md-6>
-        <div .panel .panel-default>
-            <div .panel-heading>
-                <h1>
-                    MCAccel
-            <div .panel-body>
-                Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
-            <div .panel-body>
-                <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
-                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
-    <div .col-md-6 .col-md-6>
-        <div .panel .panel-default>
-            <div .panel-heading>
-                <h1>
-                    F1-CNN
-            <div .panel-body>
-                Resnet-50 convolutional neural net trained, mapped and deployed on an AWS F1 instance. Can identify images from ImageNet database in average 250 ms or half the time of an i7 CPU.
-            <div .panel-body>
-                <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
-                <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
+ <div .tabs>
+     <div .tab-2>
+        <label for="tab2-1">F1-CNN</label>
+        <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+        <div>
+          <h4> F1-CNN
+          <p> Resnet-50 convolutional neural net trained, mapped and deployed on an AWS F1 instance. Can identify images from ImageNet database in average 250 ms or half the time of an i7 CPU.
+          <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
+          <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
+  
+    <div .tab-2>
+      <label for="tab2-2">MCAccel</label>
+      <input id="tab2-2" name="tabs-two" type="radio">
+      <div>
+        <h4> MCAccel</h4>
+         <p>Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
+         <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
+         <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
 
 
-
-<div .container-fluid>
-        <h1 .page-header>
-            Technology
-
-<div .container-fluid>
-    <div .sectional>
-        <p>
-            The emerging field of hardware microservices is saddled by a variety of tools, development flows, and frameworks. Here are some that we use
-            and believe are promising.
-<!-- <div .container-fluid> -->
-<!--        <h2> Tools We Use: -->
-
-<div .container-fluid>
-    <div .row>
-        <div .col-md-4>
-            <div .panel .panel-default>
-                <div .panel-heading>
-                    <h1> AWS F1 Instances
-                <div .panel-body>    
-                    <p> Once setup, allows for easy development and deployment of FPGA based Hardware Microservices
-                    <p> Advantages
-                    <ul> 
-                        <li> Xilinx Vitis development flow
-                        <li> Free (pay for EC2 instance)
-                    <ul> Drawbacks
-                        <li> Difficult to setup development flow
-                        <li> Help is hard to find because service is new
-
-
-        <div .col-md-4>
-            <div .panel .panel-default>
-                <div .panel-heading>
-                    <h1> RocketChip
-                <div .panel-body>
-                    <p> Opensource generator for development and largescale simulation of RISC-V SoC
-                    <p> Rocketchip generator:
-                    <ul>
-                        <li> Developed at UCSB, the generator allows for production of custom SoC
-                        <li> We used to develop MC coprocessor consisting of random number generator and high throughput IO 
-                        <li> Chisel, an EDSL of Scala, is the main programming tool
-                    
-                    <p> Firesim
-                    <ul>
-                        <li> Powerful, cycle-accurate, simulation tool for thousands of multicore nodes
-                        
-
-
-        <div .col-md-4>
-            <div .panel .panel-default>
-                <div .panel-heading>
-                    <h1> Spatial
-                <div .panel-body>
-                    <p> Tool by LegUp Computing that allows for easy tensorflow to FPGA communication
 
 
 
@@ -134,15 +88,25 @@
 
 <div .container-fluid>
         <h1 .page-header>
-            About Us
+            About Me
 
 <div .container-fluid>
     <div .sectional>
         <p>
             FEIO is the branding for independent research conducted by Allen Vannoppen Jr. I received a Masters in ECE and have extended those research efforts here. 
-            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email (feioaccel at gmail), 
-            <a href="https://github.com/feio-ai" > Github 
-            ,
-            <a href=https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/ >LinkedIn
-            , 
-            etc. with any questions, comments, or projects.
+            My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, 
+            Github, LinkedIn, etc. with any questions, comments, or projects.
+    <div .row>
+      <div .col>
+         <p .text-center>
+          <a href="https://github.com/feio-ai">
+             <i .fa .fa-github>
+      <div .col>
+         <p .text-center>
+          <a href="https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/">
+             <i .fa .fa-linkedin>
+      <div .col>
+         <p .text-center>
+          <a href="mailto: feioaccel@gmail.com">
+             <i .fa .fa-gmail>
+        
