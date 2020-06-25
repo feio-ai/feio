@@ -7035,8 +7035,8 @@ a.list-group-item-danger.active:focus {
     font-family: 'Overpass Mono', monospace;
     font-weight: 600;
     font-size: 55px;
-    margin-bottom: 10px;
-    margin-top: 27px;
+    margin-bottom: 30px;
+    margin-top: 50px;
     color: rgb(43, 24, 24);
     text-shadow: 1px 1px #ff0000bd;
   }
@@ -7082,7 +7082,7 @@ a.list-group-item-danger.active:focus {
   }
 
   .panel-default {
-    box-shadow: 1px 1px 1px 1px rgba(162, 0, 255, 0.219); 
+    box-shadow: 2px 2px #fd264f; 
   }
 
   .panel-default > .panel-heading {
@@ -7135,21 +7135,23 @@ a.list-group-item-danger.active:focus {
   }
 
   .panel-default > .panel-heading {
-    background-color: rgba(0, 0, 2, 0.13);
-    color: rgb(59, 34, 34);
+    background: rgba(0, 0, 0, 0.856);
+    color: #efedef;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 25px;
-    border-color: rgba(0, 0, 2, 0.274);
+    border-color: #fd264f;
     text-shadow: 1px 1px #442828;
   }
 
   .panel-default > .panel-body {
+    color: #efedef;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: rgb(59, 34, 34);
-    background-color: rgba(0, 0, 2, 0.13);
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.7em;
+    background: rgba(0, 0, 0, 0.856);
   }
 
   h2 {
@@ -7185,6 +7187,7 @@ a.list-group-item-danger.active:focus {
 
     margin-left: 20px;
     margin-right: 20px;
+    
   }
 
   .sectional > p {
@@ -7192,7 +7195,36 @@ a.list-group-item-danger.active:focus {
     font-size: 20px;
   }
 
+  .sectional2 {
+    font-family: 'Lato', sans-serif;
+    
+    font-size: 25px;
+    color: rgb(43, 24, 24);
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    
+  }
 
+  .sectional2 > h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    
+  }
+
+
+  .sectional2 > p {
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 30px;
+    border-left: 3px solid black;
+    padding-left: 45px;
+  
+  }
 
   .site-header {
     font-family: 'Overpass Mono', monospace;
@@ -7209,6 +7241,16 @@ a.list-group-item-danger.active:focus {
     font-family: 'Overpass Mono', monospace;
     font-weight: 600;
     font-size: 47px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    color: rgb(43, 24, 24);
+  }
+
+  .bolded2 {
+    text-shadow: 1px 1px #ff0000bd;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 600;
+    font-size: 40px;
     margin-bottom: 8px;
     margin-top: 20px;
     color: rgb(43, 24, 24);
@@ -7263,6 +7305,7 @@ a.list-group-item-danger.active:focus {
     -moz-transform: skew(-45deg);
     -webkit-transform: skew(-45deg);
     transform: skew(-45deg);
+    margin-bottom: 4.5em;
   }
 
   .article-section {
@@ -7294,8 +7337,9 @@ a.list-group-item-danger.active:focus {
     font-weight: 300;
     letter-spacing: 0.02em;
     line-height: 1.7em;
-    margin-left: 10%;
-    margin-right: 13%;
+    margin-left: 13%;
+    margin-right: 16%;
+    margin-bottom: 2.5em;
     border-radius: 2px;
     box-shadow: 2px 2px #ff0000bd;
     min-width: 300px;
@@ -7450,7 +7494,7 @@ a.list-group-item-danger.active:focus {
   }
 
   .panel-default {
-    box-shadow: 1px 1px 1px 1px rgba(162, 0, 255, 0.219); 
+    box-shadow: 1px 1px 1px 1px #fd264f; 
   }
 
   .panel-default > .panel-heading {

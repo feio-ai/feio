@@ -26,8 +26,38 @@
   <div .shape-init>
   <div .shape>
 
+<div .container-fluid>
+        <h1 .page-header>
+            How It Works
+<div .container-fluid>
+    <div .row>
+        <div .col-md-8>
+            <div .sectional2>
+                
+                    <h1>
+                        <span .bolded2> 1. </span> Identify Bottlenecks In Application
+                    <p>
+                        Looking for parallelism, identify performance bottlenecks in an application. Examples include repetitive concurrent multiplications, in the case of ML,
+                        or parallel data accesses.
+  
+    <div .row>    
+        <div .col-md-8 .col-md-offset-2>
+            <div .sectional2>    
+                
+                    <h1>
+                        <span .bolded2> 2. </span> Build Custom / Use Exisiting Coprocessor
+                    <p>
+                        Build the acceleration kernel. GPGPUs, TPUs, FPGAs as well as top-level software components are available for use through cloud services. 
 
 
+    <div .row>    
+        <div .col-md-8 .col-md-offset-4>
+            <div .sectional2>
+                   
+                    <h1>
+                        <span .bolded2> 3. </span> Connect Components
+                    <p>
+                        If the entire application resides on the accelerated device, like a fully migrated TF model, then setup data pipelines. Otherwise configure communication channels.
 
 <div .container-fluid>
         <h1 .page-header>
@@ -52,6 +82,58 @@
          <p>Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
          <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
          <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
+
+
+
+
+<div .container-fluid>
+        <h1 .page-header>
+            Technology
+
+<div .container-fluid>
+    <div .sectional>
+
+<div .container-fluid>
+    <div .row>
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> AWS F1 Instances
+                <div .panel-body>    
+                    <p> Once setup, allows for easy development and deployment of FPGA based Hardware Microservices
+                    <p> Advantages
+                    <ul> 
+                        <li> Xilinx Vitis development flow
+                        <li> Free (pay for EC2 instance)
+                    <ul> Drawbacks
+                        <li> Difficult to setup development flow
+                        <li> Help is hard to find because service is new
+
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> Spatial
+                <div .panel-body>
+                    <p> Acceleration Framework that can both map trained Tensorflow models to AWS F1 instances and be used
+                        to build custom accelerated applications. Like RocketChip, Spatial is built upon the Scala eDSL, Chisel.
+
+
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> RocketChip
+                <div .panel-body>
+                    <p> Opensource generator for development and largescale simulation of RISC-V SoC
+                    <p> Rocketchip generator:
+                    <ul>
+                        <li> Developed at UCSB, the generator allows for production of custom SoC
+                        <li> We used to develop MC coprocessor consisting of random number generator and high throughput IO 
+                        <li> Chisel, an EDSL of Scala, is the main programming tool
+                    
+                    <p> Firesim
+                    <ul>
+                        <li> Powerful, cycle-accurate, simulation tool for thousands of multicore nodes
+                        
 
 
 
@@ -97,16 +179,15 @@
             My focus is on exploring the variety of new and creative frameworks for building hardware acceleration solutions. Please reach out to me via email, 
             Github, LinkedIn, etc. with any questions, comments, or projects.
     <div .row>
-      <div .col>
-         <p .text-center>
-          <a href="https://github.com/feio-ai">
-             <i .fa .fa-github>
-      <div .col>
-         <p .text-center>
-          <a href="https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/">
-             <i .fa .fa-linkedin>
-      <div .col>
-         <p .text-center>
-          <a href="mailto: feioaccel@gmail.com">
-             <i .fa .fa-gmail>
-        
+        <div .col-md-4>
+            <p .text-center>
+                <a href="https://github.com/feio-ai">
+                    <i .fa .fa-github>
+        <div .col-md-4>
+            <p .text-center>
+                <a href="https://www.linkedin.com/in/allen-vannoppen-jr-a96563a7/">
+                    <i .fa .fa-linkedin>
+        <div .col-md-4>
+            <p .text-center>
+                <a href="mailto: feioaccel@gmail.com">
+                    <i .fa .fa-gmail>
