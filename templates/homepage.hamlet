@@ -45,9 +45,10 @@
             <div .sectional2>    
                 
                     <h1>
-                        <span .bolded2> 2. </span> Build Custom / Use Exisiting Coprocessor
+                        <span .bolded2> 2. </span> Build Acceleration Kernel
                     <p>
-                        Build the acceleration kernel. GPGPUs, TPUs, FPGAs as well as top-level software components are available for use through cloud services. 
+                        GPGPUs, TPUs, FPGAs as well as top-level software components are available for use through cloud services like AWS and Nimbix.
+                        New frameworks allow for fast development of optimized acceleration kernels. 
 
 
     <div .row>    
@@ -70,7 +71,11 @@
         <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
         <div>
           <h4> F1-CNN
-          <p> Resnet-50 convolutional neural net trained, mapped and deployed on an AWS F1 instance. Can identify images from ImageNet database in average 250 ms or half the time of an i7 CPU.
+          <p> Resnet-50 convolutional neural net mapped and deployed on an AWS F1 instance. 
+          <p>
+                When mapped to an FPGA, ResNet50 can identify images from ImageNet database in an average of 250 ms or half the time of an i7 CPU.
+                This example is demonstrative of the ability to fully map trained neural networks to hardware optimized for inference. FPGAs can act as ML accelerators either attached as coprocessors
+                or, as in this case, executing the complete model. Coprocessors could be used for tasks like matrix multiplication or exponential functions.
           <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
           <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
   
@@ -79,7 +84,12 @@
       <input id="tab2-2" name="tabs-two" type="radio">
       <div>
         <h4> MCAccel</h4>
-         <p>Accelerated Monte Carlo Simulation for options pricing. Easily accesible via AWS and blazing fast. Simulate 1M option paths in a fraction of the time.
+         <p>Accelerated Monte Carlo Simulation for options pricing. 
+         <p>
+            Monte Carlo Methods are used in quantitative finance to forecast possible pricing paths or risk scenarios. Specifically, a value is sampled from a standard normal distribution function
+            and applied to the pricing formula for price a small increment of time in the future. This computation is done hundreds of times over ~700k-1M paths, depending on the application. In an FPGA, this 
+            calculation can be performed in parallel batches in a fraction of the time. OpenCL allows the programmer to decide worker and group sizes and Xilinx Vitis can perform other parallel optimizations at the RTL level.
+
          <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
          <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
 
@@ -146,12 +156,12 @@
 <div .container-fluid>
     <div .sectional>
         <p>
-            Heterogeneous computing frameworks will be the new norm for compute-intensive systems consisting of a central processor 
-            connected to domain specific coprocessors. For proof look no further than projects like Google's TPU, Microsoft's Catapult, 
-            or newer companies like Groq or Intensivate. These systems can be formed with GPUs, FPGAs, ASICs and/or combinations of the three. 
+            Heterogeneous computing frameworks will be the new norm for compute-intensive systems. For proof look no further than projects like Google's TPU, Microsoft's Catapult, 
+            or newer companies like Groq or Intensivate. These systems can be formed with GPUs, FPGAs, ASICs and/or combinations of the three. Trends like Apple moving to chips designed in house
+            will continue because custom architectures can better fit specific domains.
         <p>    
             FPGAs are fast, flexible, and very efficient. GPUs are also fast and flexible (sometimes in greater amounts) but these gains come at 
-            the expense of terrible efficiency. Considering current environmental crises, we as engineers should weigh energy efficiency as heavily 
+            the expense of energy efficiency. Considering current environmental crises, we as engineers should weigh energy efficiency as heavily 
             as other application characteristics. Lesser energy demands is also important for cloud service providers hoping to reduce their bottom line. 
             FPGAs are preferable to GPUs because they provide equal speed and reprogrammability capability but with extreme efficiency. 
         <p>    
@@ -166,6 +176,9 @@
         <p>    
             While some will  vehemently argue against the use of such tools, we propose using these to produce an initial outline of an application 
             followed by fine tuning of generated RTL for better performance ( sometimes unnecessary).
+        <p>
+            Tools like RocketChip allow for the inexpensive and rapid prototyping of custom hardware. RocketChip is open source and can work from outline to tapeout saving
+            giving very small companies a chance to compete against traditional chip manufacturers. Intensivate is a perfect example. 
 
 
 <div .container-fluid>
