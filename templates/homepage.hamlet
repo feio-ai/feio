@@ -65,35 +65,34 @@
             Products
 
 <div .container-fluid>
- <div .tabs>
-     <div .tab-2>
-        <label for="tab2-1">F1-CNN</label>
-        <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
-        <div>
-          <h4> F1-CNN
-          <p> Resnet-50 convolutional neural net mapped and deployed on an AWS F1 instance. 
-          <p>
-                When mapped to an FPGA, ResNet50 can identify images from ImageNet database in an average of 250 ms or half the time of an i7 CPU.
-                This example is demonstrative of the ability to fully map trained neural networks to hardware optimized for inference. FPGAs can act as ML accelerators either attached as coprocessors
-                or, as in this case, executing the complete model. Coprocessors could be used for tasks like matrix multiplication or exponential functions.
-          <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
-          <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
-  
-    <div .tab-2>
-      <label for="tab2-2">MCAccel</label>
-      <input id="tab2-2" name="tabs-two" type="radio">
-      <div>
-        <h4> MCAccel</h4>
-         <p>Accelerated Monte Carlo Simulation for options pricing. 
-         <p>
-            Monte Carlo Methods are used in quantitative finance to forecast possible pricing paths or risk scenarios. Specifically, a value is sampled from a standard normal distribution function
-            and applied to the pricing formula for price a small increment of time in the future. This computation is done hundreds of times over ~700k-1M paths, depending on the application. In an FPGA, this 
-            calculation can be performed in parallel batches in a fraction of the time. OpenCL allows the programmer to decide worker and group sizes and Xilinx Vitis can perform other parallel optimizations at the RTL level.
+    <div .sectional>
 
-         <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
-         <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
-
-
+<div .container-fluid>
+    <div .row>
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> F1-CNN
+                <div .panel-body>    
+                    <h2> Resnet-50 convolutional neural net mapped and deployed on an AWS F1 instance. 
+                    <p>
+                        When mapped to an FPGA, ResNet50 can identify images from ImageNet database in an average of 250 ms or half the time of an i7 CPU.
+                        This example is demonstrative of the ability to fully map trained neural networks to hardware optimized for inference. FPGAs can act as ML accelerators either attached as coprocessors
+                        or, as in this case, executing the complete model. Coprocessors could be used for tasks like matrix multiplication or exponential functions.
+                    <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
+                    <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
+        <div .col-md-4>
+            <div .panel .panel-default>
+                <div .panel-heading>
+                    <h1> MCAccel
+                <div .panel-body>
+                    <p>Accelerated Monte Carlo Simulation for options pricing. 
+                    <p>
+                        Monte Carlo Methods are used in quantitative finance to forecast possible pricing paths or risk scenarios. Specifically, a value is sampled from a standard normal distribution function
+                        and applied to the pricing formula for price a small increment of time in the future. This computation is done hundreds of times over ~700k-1M paths, depending on the application. In an FPGA, this 
+                        calculation can be performed in parallel batches in a fraction of the time. OpenCL allows the programmer to decide worker and group sizes and Xilinx Vitis can perform other parallel optimizations at the RTL level.
+                    <a .btn .btn-primary .btn-lg .btn-block href="#" > Try it out!
+                    <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
 
 
 <div .container-fluid>
@@ -153,7 +152,7 @@
         <h1 .page-header>
             Motivation
 
-<div .container-fluid>
+<div .container>
     <div .sectional>
         <p>
             Heterogeneous computing frameworks will be the new norm for compute-intensive systems. For proof look no further than projects like Google's TPU, Microsoft's Catapult, 
