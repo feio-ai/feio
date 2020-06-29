@@ -29,7 +29,7 @@
 <div .container-fluid>
         <h1 .page-header>
             How It Works
-<div .container-fluid>
+<div .container>
     <div .row>
         <div .col-md-8>
             <div .sectional2>
@@ -69,7 +69,7 @@
 
 <div .container-fluid>
     <div .row>
-        <div .col-md-4>
+        <div .col-md-6>
             <div .panel .panel-default>
                 <div .panel-heading>
                     <h1> F1-CNN
@@ -81,12 +81,12 @@
                         or, as in this case, executing the complete model. Coprocessors could be used for tasks like matrix multiplication or exponential functions.
                     <a .btn .btn-primary .btn-lg .btn-block href="#" > Connect via AWS
                     <a .btn .btn-secondary .btn-lg .btn-block href="#" > Documentation (in progress)
-        <div .col-md-4>
+        <div .col-md-6>
             <div .panel .panel-default>
                 <div .panel-heading>
                     <h1> MCAccel
                 <div .panel-body>
-                    <p>Accelerated Monte Carlo Simulation for options pricing. 
+                    <h2>Accelerated Monte Carlo Simulation for options pricing. 
                     <p>
                         Monte Carlo Methods are used in quantitative finance to forecast possible pricing paths or risk scenarios. Specifically, a value is sampled from a standard normal distribution function
                         and applied to the pricing formula for price a small increment of time in the future. This computation is done hundreds of times over ~700k-1M paths, depending on the application. In an FPGA, this 
@@ -184,7 +184,7 @@
         <h1 .page-header>
             About Me
 
-<div .container-fluid>
+<div .container>
     <div .sectional>
         <p>
             FEIO is the branding for independent research conducted by Allen Vannoppen Jr. I received a Masters in ECE and have extended those research efforts here. 

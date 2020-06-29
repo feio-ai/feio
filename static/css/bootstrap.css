@@ -7151,11 +7151,11 @@ a.list-group-item-danger.active:focus {
     font-weight: 300;
     letter-spacing: 0.02em;
     line-height: 1.7em;
-    background: rgba(0, 0, 0, 0.856);
+    background: rgba(0, 0, 0, 0.548);
   }
 
   h2 {
-    color: rgb(59, 34, 34);
+    color: rgb(255, 255, 255);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 30px;
