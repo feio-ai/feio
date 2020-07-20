@@ -1,13 +1,3 @@
-## Database Setup
-
-After installing Postgres, run:
-
-```
-createuser feio --pwprompt --superuser
-# Enter password feio when prompted
-createdb feio
-createdb feio_test
-```
 
 ## Haskell Setup
 
